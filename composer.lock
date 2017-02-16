@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "68e314b52be7f975648713ff31a65933",
-    "content-hash": "3773ec170929545cba17619977c1e888",
+    "hash": "dc8ba1f527d76c10474dcce76c07672f",
+    "content-hash": "b2422f7309cd085c3ce711abf8e82104",
     "packages": [
         {
             "name": "bower-asset/jquery",
