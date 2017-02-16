@@ -10,9 +10,9 @@
             "email": "mgilangjanuar@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "yiisoft/yii2": "^2.0.0",
-        "ercling/yii2-pace": "dev-master"
+        "ercling/yii2-pace": "@dev"
     }
 }
