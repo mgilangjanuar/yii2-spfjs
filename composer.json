@@ -2,7 +2,7 @@
     "name": "mgilangjanuar/yii2-spfjs",
     "description": "yii2 plugin with spfjs for fast navigation and page updates",
     "type": "library",
-    "version": "dev-master",
+    "version": "0.1.1",
     "license": "MIT",
     "authors": [
         {
