@@ -9,7 +9,7 @@
             "email": "mgilangjanuar@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "dev-master",
     "require": {
         "fxp/composer-asset-plugin": "^1.2.0",
         "yiisoft/yii2": "^2.0.0",
