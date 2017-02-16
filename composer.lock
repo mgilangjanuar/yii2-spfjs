@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c956054e39b8c29c80d009443ea8910b",
-    "content-hash": "2d73419e9c2dffc4627b5fee335c00a1",
+    "hash": "229a6ad0d81c25c8f1ef800de1cd4976",
+    "content-hash": "a5ac1bf4179ea35c7a981cb7b5074edc",
     "packages": [
         {
             "name": "bower-asset/jquery",
@@ -118,43 +118,6 @@
                     "package.json"
                 ]
             }
-        },
-        {
-            "name": "bower-asset/spf",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/youtube/spfjs.git",
-                "reference": "988b652f6f979d7445f3160a40e29094030d1be5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/youtube/spfjs/zipball/988b652f6f979d7445f3160a40e29094030d1be5",
-                "reference": "988b652f6f979d7445f3160a40e29094030d1be5",
-                "shasum": ""
-            },
-            "require-dev": {
-                "bower-asset/jasmine": "~2.3.4",
-                "bower-asset/octicons": "~2.1.2",
-                "bower-asset/spf": "2.1.1",
-                "bower-asset/spf-closure-compiler-file": "*",
-                "bower-asset/web-starter-kit": "~0.4.0",
-                "bower-asset/webpy": "*"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": "dist/spf.js",
-                "bower-asset-ignore": [
-                    "**/.*",
-                    "bower_components",
-                    "node_modules"
-                ]
-            },
-            "license": [
-                "MIT"
-            ],
-            "description": "A lightweight JS framework for fast navigation and page updates from YouTube",
-            "time": "2017-01-07 14:59:53"
         },
         {
             "name": "bower-asset/yii2-pjax",
@@ -340,76 +303,17 @@
             "time": "2016-07-16 12:58:58"
         },
         {
-            "name": "fxp/composer-asset-plugin",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fxpio/composer-asset-plugin.git",
-                "reference": "ee87499e8a64da51814b6c2a88ed8e0268978247"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/fxpio/composer-asset-plugin/zipball/ee87499e8a64da51814b6c2a88ed8e0268978247",
-                "reference": "ee87499e8a64da51814b6c2a88ed8e0268978247",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "^1.0",
-                "php": ">=5.3.3"
-            },
-            "require-dev": {
-                "composer/composer": "^1.3.0"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "class": "Fxp\\Composer\\AssetPlugin\\FxpAssetPlugin",
-                "branch-alias": {
-                    "dev-master": "1.3-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Fxp\\Composer\\AssetPlugin\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "François Pluchino",
-                    "email": "francois.pluchino@gmail.com"
-                }
-            ],
-            "description": "NPM/Bower Dependency Manager for Composer",
-            "homepage": "https://github.com/fxpio/composer-asset-plugin",
-            "keywords": [
-                "asset",
-                "bower",
-                "composer",
-                "dependency manager",
-                "nodejs",
-                "npm",
-                "package"
-            ],
-            "time": "2017-01-18 14:13:19"
-        },
-        {
             "name": "yiisoft/yii2",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "d3f1298ce1d0c06355764ea7c6626407204234af"
+                "reference": "3ca1c8d8b6708f3257db4cd385403d51f22d3201"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/d3f1298ce1d0c06355764ea7c6626407204234af",
-                "reference": "d3f1298ce1d0c06355764ea7c6626407204234af",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/3ca1c8d8b6708f3257db4cd385403d51f22d3201",
+                "reference": "3ca1c8d8b6708f3257db4cd385403d51f22d3201",
                 "shasum": ""
             },
             "require": {
@@ -496,7 +400,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2017-02-04 12:51:12"
+            "time": "2017-02-16 12:23:27"
         },
         {
             "name": "yiisoft/yii2-composer",
