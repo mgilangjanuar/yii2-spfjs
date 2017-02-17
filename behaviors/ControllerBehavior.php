@@ -5,7 +5,7 @@
  * @link http://mgilangjanuar.com
  */
 
-namespace mgilangjanuar\yii2spf\behaviors;
+namespace mgilangjanuar\yii2spf;
 
 use yii\web\Controller;
 use yii\base\Behavior;

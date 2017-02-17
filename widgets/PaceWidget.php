@@ -5,11 +5,11 @@
  * @link http://mgilangjanuar.com
  */
 
-namespace mgilangjanuar\yii2spf\widgets;
+namespace mgilangjanuar\yii2spf;
 
 use Yii;
 use yii\base\Widget;
-use yii2spf\assets\PaceAssetBundle;
+use mgilangjanuar\yii2spf\PaceAssetBundle;
 use yii\web\View;
 
 /**

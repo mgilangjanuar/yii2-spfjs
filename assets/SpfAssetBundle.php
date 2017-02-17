@@ -5,7 +5,7 @@
  * @link http://mgilangjanuar.com
  */
 
-namespace mgilangjanuar\yii2spf\assets;
+namespace mgilangjanuar\yii2spf;
 
 /**
  * Class SpfAssetBundle
