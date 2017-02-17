@@ -12,7 +12,7 @@ use app\assets\AppAsset;
 AppAsset::register($this);
 
 // add this for PaceWidget
-\ercling\pace\PaceWidget::widget([
+\yii2spf\widget\PaceWidget::widget([
     'color'=>'red',
     'theme'=>'minimal',
     'options'=>[

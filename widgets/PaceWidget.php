@@ -5,7 +5,7 @@
  * @link http://mgilangjanuar.com
  */
 
-namespace yii2spf\widget;
+namespace mgilangjanuar\yii2spf\widgets;
 
 use Yii;
 use yii\base\Widget;
@@ -22,7 +22,9 @@ class PaceWidget extends Widget
 
     public $theme = 'minimal';
 
-    public $options;
+    public $options = [
+        'ajax'=>['trackMethods'=>['GET','POST','AJAX']]
+    ];
 
     public function init()
     {
