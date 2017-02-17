@@ -7,6 +7,7 @@
 
 namespace mgilangjanuar\yii2spf;
 
+use Yii;
 use yii\web\Controller;
 use yii\base\Behavior;
 use yii\helpers\Json;
