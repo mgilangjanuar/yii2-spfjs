@@ -19,6 +19,6 @@ class AppAsset extends AssetBundle
 
     public $depends = [
         // other depends bundle here
-        '\yii2spf\assets\SpfAssetBundle',
+        'mgilangjanuar\yii2spf\SpfAssetBundle',
     ];
 }

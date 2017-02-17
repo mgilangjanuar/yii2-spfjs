@@ -3,7 +3,6 @@
 namespace app\controllers;
 
 use Yii;
-use yii2spf\behaviors\ControllerBehavior as Yii2Spf;
 
 class SiteController extends Controller
 {
@@ -15,7 +14,7 @@ class SiteController extends Controller
         return [
             // add yii2spf behavior
             'spfjs' => [
-                'class' => Yii2Spf::className(),
+                'class' => \mgilangjanuar\yii2spf\ControllerBehavior::className(),
 
                 // default attributes value
                 'title' => [

@@ -12,7 +12,7 @@ use app\assets\AppAsset;
 AppAsset::register($this);
 
 // add this for PaceWidget
-\yii2spf\widget\PaceWidget::widget([
+\mgilangjanuar\yii2spf\PaceWidget::widget([
     'color'=>'red',
     'theme'=>'minimal',
     'options'=>[
@@ -68,7 +68,7 @@ AppAsset::register($this);
     NavBar::end();
     ?>
 
-    <div class="container">
+    <div id="main-content" class="container">
         <!-- MAIN CONTENT -->
         <?= Breadcrumbs::widget([
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
