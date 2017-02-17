@@ -22,7 +22,7 @@ class PaceAssetBundle extends \yii\web\AssetBundle
     public $jsOptions=['position' => \yii\web\View::POS_END];
 
     public function registerAssetFiles($view){
-        $this->js = 'web/libs/PACE/pace.min.js';
+        $this->js = ['web/libs/PACE/pace.min.js'];
         parent::registerAssetFiles($view);
     }
 
